@@ -21,21 +21,6 @@ TypeScript cannot handle type information for `.vue` imports by default, so we r
 
 See [Vite Configuration Reference](https://vite.dev/config/).
 
-## Project Structure
-
-src/
-├── components/
-│   ├── TableOne.vue    # Loads and parses CSV, emits loaded data
-│   └── TableTwo.vue    # Computes derived values based on TableOne data
-├── types.ts            # Shared TypeScript types
-└── App.vue             # Parent component coordinating TableOne and TableTwo
-└── main.ts             # Application entry point
-
-## CSV File
-public
-├── data/
-    └─Table_Input.csv          # Sample CSV file to be loaded by TableOne
-
 ## Project Setup
 
 ```sh
