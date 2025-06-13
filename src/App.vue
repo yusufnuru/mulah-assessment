@@ -24,7 +24,7 @@ const handleLoaded = (data: TableOneData[]) => {
     />
   </div>
     <footer class="mx-auto p-2 text-center">
-      <p class="text-sm text-gray-500">© 2025 - Made by <a href="https://github.com/yusufnuru" class="text-blue-600 hover:underline">Yusuf Nuru</a></p>    </footer>
+      <p class="text-sm text-gray-500">© 2025 - Made by <a href="https://github.com/yusufnuru/mulah-assessment" class="text-blue-600 hover:underline">Yusuf Nuru</a></p>    </footer>
   </div>
 </template>
 
